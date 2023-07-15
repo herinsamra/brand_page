@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.container{
+    margin:0 auto;
+    max-width:1200px;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    gap:24px;
+}
+li{
+    list-style: none;
+}
+.btn{
+    all:unset;
+    background:#D51924;
+    height:31px;
+    width:75px;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+}
+.hero{
+    display:flex;
+    align-items: center;
+    height: calc(100vh-72px);
+}
+.hero h1{
+    font-weight: 800;
+    font-size :108px;
+    line-height: 102px;
+}
+.hero p{
+    font-weight: 600;
+    color:gray;
+    max-width: 404px;
+}
+.hero-btns{
+    display: flex;
+    max-width:331px;
+    justify-content: space-between;
+}
+.btn1{
+    all:unset;
+    background:#D51924;
+    height:41px;
+    width:150px;
+    color:white;
+    border-radius: 5px;
+    text-align: center; 
+}
+.btn2{
+    all:unset;
+    background:white;
+    height:41px;
+    width:142px;
+    color:grey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center; 
+}
+p.mini-text{
+    font-weight:300;
+}
+.shops{
+    max-width: 80px;
+    display:flex;
+    justify-content: space-between;
+}
+img.shoe{
+    max-width:530px;
+    height:487.06px;
+}
+
+
+
+
+
